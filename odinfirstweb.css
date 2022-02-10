@@ -1,0 +1,36 @@
+body {
+
+}
+
+
+.header {
+    background-color: black;
+    margin: 0px 100px 50px 100px;
+
+}
+.header-top {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+
+}
+.header-nav {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+}
+.header-left {
+    background-color: brown;
+}
+.header-right {
+    background-color: chartreuse;
+}
+.nav-text {
+    display: inline-flex;
+    
+}
+.content-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
