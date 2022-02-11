@@ -80,3 +80,78 @@ button {
     gap: 120px;
 }
 
+/* Middle Section Below */ 
+
+
+  
+
+  
+  .title {
+    font-size: 36px;
+    font-weight: 900;
+  }
+  
+ 
+  
+  /* SOLUTION */
+  
+  section {
+    text-align: center;
+  }
+  
+  .title {
+    margin-bottom: 32px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+  }
+  
+  .info {
+    max-width: 200px;
+  }
+  .box {
+      height: 195px;
+      width: 195px;
+      border: 5px solid lightseagreen;
+      border-radius: 10%;
+  }
+  .text {
+      margin-top: 10px;
+  }
+
+  section {
+      height: 500px;
+      padding-top: 70px;
+  }
+   /* Quote Section */
+
+   .quote {
+       background-color: #e4e6eb;
+
+       height: 500px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+   }
+   .quote-text {
+       color: #1F2937;
+       font-weight: light italic;
+       font-size: 36px;
+       width: 700px;
+       margin-bottom: 100px;
+   }
+
+   .hehe {
+       color: #1f2a37;
+       font-weight: bolder;
+       font-size: 46px;
+       position: absolute;
+        left: 800px;
+     
+        top: 1440px;
+   }
+   
