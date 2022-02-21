@@ -1,50 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<h3 id="header">Haha</h3>
-<input type="text" id="inp"/>
-<button onclick="press()">Here here</button>
-
- 
-<body>
-
-    <script>
-        function press() {
-          
-            let text = document.getElementById("inp").value;
-            if (text === 'grow') {
-                    document.getElementById("header").style.fontSize = "100px"
-            } else if ( text === 'firebrick') {
-                document.getElementById("header").style.color = "firebrick"
-            }  else if ( text === 'light green') {
-                document.getElementById("header").style.color = "lightgreen"
-            }  else if ( text === 'where is ismail') {
-                alert('in ur mom lel, sorry jk')
-            }  else if  ( text === 'shrink') {
-                document.getElementById("header").style.fontSize = "10px"
-            }  else if ( text === 'move') {
-                document.getElementById("header").style.marginLeft = "100px"
-            }  else if ( text === 'move 200px to botton') {
-                document.getElementById("header").style.marginTop = "200px"
-            }  
-
-            
-         
-
-        }
-
-    </script>
-
-
-
-
-
-
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="javahtml.css">
+    <title>Conditionals: Task 1</title>
     
-</body>
+    
+  </head>
+
+  <body>
+    <h1 class="coco">The Magic Ball</h1>
+    <div id="balls" class="ball"></div>
+
+    <div class="buttons">
+      <button onclick="gored()" id="red">Red</button>
+      <button onclick="goyellow()" id="yellow">Yellow</button>
+      <button onclick="gopurple()" id="purple">Purple</button>
+      <button onclick="gogreen()" id="green">Green</button>
+      <button onclick="gomo()" id="red">Brown</button>
+      <button onclick="goma()" id="yellow">Orange</button>
+      <button onclick="gome()" id="purple">Grey</button>
+      <button onclick="gomk()" id="green">White</button>
+
+    </div>
+
+  
+
+    <section class="preview"></section>
+
+  </body>
+  
+  
+
+
+
+  <script src="javahtml.js"></script>
+
+
+
 </html>
