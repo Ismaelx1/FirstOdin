@@ -1,7 +1,4 @@
-const go$red = document.getElementById('red')
-const go$yellow = document.getElementById('yellow')
-const go$purple = document.getElementById('purple')
-const go$green = document.getElementById('green')
+
 
 
 
