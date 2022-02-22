@@ -1,0 +1,45 @@
+* {
+    margin: auto;
+}
+body {
+    background-image: url(https://www.euimg.com/wp-content/uploads/2022/02/weed-wallpaper-euimg-5.jpg);
+}
+h1 {
+    text-align: center;
+    color: firebrick;
+    font-style: italic;
+    font-size: 50px;
+}
+#counter {
+    text-align: center;
+    color:chartreuse;
+    font-size: 100px;
+}
+div {
+  position: absolute;
+  
+  margin-left: 530px;
+}
+#enteries {
+    text-align: center;
+    color: firebrick;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 90px;
+
+}
+button {
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bolder;
+}
+#btn {
+    background-color:gold;
+}
+#save-btn {
+    background-color: chartreuse;
+}
+
+#redo {
+    background-color: gold;
+}
