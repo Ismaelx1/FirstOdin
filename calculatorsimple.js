@@ -7,18 +7,22 @@ document.getElementById('num2-el').textContent = num2;
 let result = document.getElementById('sum');
 
 function add() {
+    result.textContent = `The sum is :`
 totaladd = num1 + num2;
 result.textContent += totaladd
 }
 function subtract() {
-    totaladd = num1 - num2;
+    result.textContent = `The sum is :`
+        totaladd = num1 - num2;
     result.textContent += totaladd
     }
     function divide() {
+        result.textContent = `The sum is :`
         totaladd = num1 / num2;
         result.textContent += totaladd
         }
         function multiply() {
+            result.textContent = `The sum is :`
             totaladd = num1 * num2;
             result.textContent += totaladd
             }
